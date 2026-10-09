@@ -1,5 +1,7 @@
 import React, {useEffect} from 'react'
 import assets from '../assets/assets'
+import {motion} from 'motion/react'
+
 
 const ThemeToggleBtn = ({ theme, setTheme }) => {
     useEffect(() => {

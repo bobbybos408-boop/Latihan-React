@@ -1,6 +1,8 @@
 import React from 'react'
 import Title from './Title'
 import assets from '../assets/assets'
+import {motion} from 'motion/react'
+
 
 const OurWork = () => {
   const workData = [

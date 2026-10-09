@@ -1,4 +1,6 @@
 import React, { useRef, useState } from 'react'
+import {motion} from 'motion/react'
+
 
 const ServiceCard = ({ service, index }) => {
     // setPosition mengubah posisi berdasarkan interaksi pengguna
